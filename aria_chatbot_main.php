@@ -161,6 +161,9 @@ class Aria_Smart_Assistant {
         require_once ARIA_CHATBOT_PLUGIN_PATH . 'includes/core/class-aria-voice-handler.php';
         require_once ARIA_CHATBOT_PLUGIN_PATH . 'includes/core/class-aria-memory-manager.php';
         require_once ARIA_CHATBOT_PLUGIN_PATH . 'includes/core/class-aria-personality-engine.php';
+        require_once ARIA_CHATBOT_PLUGIN_PATH . 'includes/core/class-aria-analytics.php';
+        require_once ARIA_CHATBOT_PLUGIN_PATH . 'includes/core/class-aria-security.php';
+        require_once ARIA_CHATBOT_PLUGIN_PATH . 'includes/core/class-aria-performance.php';
         
         // یکپارچگی‌ها
         require_once ARIA_CHATBOT_PLUGIN_PATH . 'includes/integrations/class-aria-woocommerce.php';
